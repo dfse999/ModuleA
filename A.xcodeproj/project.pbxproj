@@ -15,6 +15,8 @@
 		5CB8A0612063958000FE3B27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB8A0602063958000FE3B27 /* Assets.xcassets */; };
 		5CB8A0642063958000FE3B27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB8A0622063958000FE3B27 /* LaunchScreen.storyboard */; };
 		5CB8A0672063958000FE3B27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8A0662063958000FE3B27 /* main.m */; };
+		5CB8A09D20639F5600FE3B27 /* Target_ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8A09C20639F5600FE3B27 /* Target_ModuleA.m */; };
+		5CB8A0A12063A07700FE3B27 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB8A09F2063A07600FE3B27 /* AViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,10 @@
 		5CB8A0632063958000FE3B27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CB8A0652063958000FE3B27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB8A0662063958000FE3B27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CB8A09B20639F5600FE3B27 /* Target_ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ModuleA.h; sourceTree = "<group>"; };
+		5CB8A09C20639F5600FE3B27 /* Target_ModuleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ModuleA.m; sourceTree = "<group>"; };
+		5CB8A09F2063A07600FE3B27 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		5CB8A0A02063A07600FE3B27 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		6D2F43F45950CF8FCEAF5BFD /* Pods-A.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.debug.xcconfig"; path = "Pods/Target Support Files/Pods-A/Pods-A.debug.xcconfig"; sourceTree = "<group>"; };
 		7D0D1CBAAD8728894033C057 /* Pods-A.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A.release.xcconfig"; path = "Pods/Target Support Files/Pods-A/Pods-A.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +90,8 @@
 		5CB8A0532063958000FE3B27 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				5CB8A09E2063A07600FE3B27 /* A */,
+				5CB8A09920639ED300FE3B27 /* Target */,
 				5CB8A0542063958000FE3B27 /* AppDelegate.h */,
 				5CB8A0552063958000FE3B27 /* AppDelegate.m */,
 				5CB8A0572063958000FE3B27 /* ViewController.h */,
@@ -94,6 +102,24 @@
 				5CB8A0652063958000FE3B27 /* Info.plist */,
 				5CB8A0662063958000FE3B27 /* main.m */,
 				5CB8A05D2063958000FE3B27 /* A.xcdatamodeld */,
+			);
+			path = A;
+			sourceTree = "<group>";
+		};
+		5CB8A09920639ED300FE3B27 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				5CB8A09B20639F5600FE3B27 /* Target_ModuleA.h */,
+				5CB8A09C20639F5600FE3B27 /* Target_ModuleA.m */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		5CB8A09E2063A07600FE3B27 /* A */ = {
+			isa = PBXGroup;
+			children = (
+				5CB8A09F2063A07600FE3B27 /* AViewController.m */,
+				5CB8A0A02063A07600FE3B27 /* AViewController.h */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -223,6 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB8A0A12063A07700FE3B27 /* AViewController.m in Sources */,
+				5CB8A09D20639F5600FE3B27 /* Target_ModuleA.m in Sources */,
 				5CB8A0592063958000FE3B27 /* ViewController.m in Sources */,
 				5CB8A05F2063958000FE3B27 /* A.xcdatamodeld in Sources */,
 				5CB8A0672063958000FE3B27 /* main.m in Sources */,
