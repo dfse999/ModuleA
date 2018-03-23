@@ -91,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				5CB8A09E2063A07600FE3B27 /* A */,
-				5CB8A09920639ED300FE3B27 /* Target */,
 				5CB8A0542063958000FE3B27 /* AppDelegate.h */,
 				5CB8A0552063958000FE3B27 /* AppDelegate.m */,
 				5CB8A0572063958000FE3B27 /* ViewController.h */,
@@ -106,20 +105,13 @@
 			path = A;
 			sourceTree = "<group>";
 		};
-		5CB8A09920639ED300FE3B27 /* Target */ = {
-			isa = PBXGroup;
-			children = (
-				5CB8A09B20639F5600FE3B27 /* Target_ModuleA.h */,
-				5CB8A09C20639F5600FE3B27 /* Target_ModuleA.m */,
-			);
-			path = Target;
-			sourceTree = "<group>";
-		};
 		5CB8A09E2063A07600FE3B27 /* A */ = {
 			isa = PBXGroup;
 			children = (
 				5CB8A09F2063A07600FE3B27 /* AViewController.m */,
 				5CB8A0A02063A07600FE3B27 /* AViewController.h */,
+				5CB8A09B20639F5600FE3B27 /* Target_ModuleA.h */,
+				5CB8A09C20639F5600FE3B27 /* Target_ModuleA.m */,
 			);
 			path = A;
 			sourceTree = "<group>";

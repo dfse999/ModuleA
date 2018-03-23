@@ -7,11 +7,10 @@
 //
 
 #import "Target_ModuleA.h"
-#import "AViewController.h"
 
 @implementation Target_ModuleA
 - (UIViewController *)Action_openViewController:(NSDictionary *)params{
-    AViewController *viewController = [[AViewController alloc] init];
+    UIViewController *viewController = [[AViewController alloc] init];
     return viewController;
 }
 @end

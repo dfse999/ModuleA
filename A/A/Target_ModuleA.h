@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AViewController.h"
 
 @interface Target_ModuleA : NSObject
 - (UIViewController *)Action_openViewController:(NSDictionary *)params;

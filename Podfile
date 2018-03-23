@@ -5,5 +5,6 @@ source 'http://codeview.bkjk-inc.com/source/test.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'A' do
- 
+    pod 'HandyFrame'
+ pod "B_Category", :path => "../B_Category"
 end
